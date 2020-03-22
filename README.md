@@ -1,37 +1,38 @@
 # lingkong-robot-server
+----
+**根据lingkong-robot所开发的在线版**
 
 #### 介绍
 灵空机器人在线版的源码
+* 灵空机器人是一个由非凡小王开发、灵空团队维护的灵活可配的中文语音对话机器人，并根据    wukong-robot进行改编（改编部分较多，主要借鉴了悟空后台端）。
+* 灵空机器人可以做到语音唤醒，语音对话，正常的闲聊，以及查询天气等实用工具
+#### 跳转
+----
+[灵空文档](http://docs.lingkong-robot.cn)(包括灵空在线和灵空本地的使用说明)/[灵空在线](http://lkwebnc.ffxw0720.club:8888/)（账号随意，密码12345）/[灵空主体](https://gitee.com/lingkonggzs/lingkong-robot)
+#### 在线版与本地版的区别
+----
+##### ①
 
-#### 软件架构
-软件架构说明
+在线版：所有都无调用限制
 
+本地版：前期因紧急，所以用的都是有限制次数的，在线版完工后本地版也会做无调用限制
 
-#### 安装教程
+##### ②
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+在线版：支持win、安卓、ios、mac、linux等所有支持浏览器的平台，但体验到的东西比本地版少
 
-#### 使用说明
+本地版：仅支持mac、linux（目前只测试到了deepin，按常理debian也是相同道理，所以debian有可能也能用）平台，但是体验到的东西是最多的，作者的维护力度和更新力度也比在线版大
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 在线版功能
+----
+基本与灵空机器人本地版的后台相同，只不过做了一些适配和加了一些在线版必须的一些功能
 
-#### 参与贡献
+#### 一些问题
+----
+##### 手机端无左侧的菜单？
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+方案一：部分手机横屏就可以出现左侧菜单
 
+方案二：记住路径（"/"为介绍页，"/ds"是打赏页,"/log"是日志页,"/study"是修改配置项教程页,"/dh"是对话页,"/list"是清单页，此路径适用于0.5.7.200316版）
 
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 
