@@ -1,11 +1,12 @@
 # lingkong-robot-server
 ----
-**根据lingkong-robot所开发的在线版**
+**根据[lingkong-robot](https://gitee.com/lingkonggzs/lingkong-robot)所开发的在线版**
 
 #### 有关灵空机器人的介绍
 
 * 灵空机器人是一个由非凡小王开发、折腾调协助维护的灵活可配的中文语音对话机器人，并根据wukong-robot进行改编（改编部分较多，主要借鉴了悟空后台端）。
 * 灵空机器人在线版可以做到正常的闲聊，以及查询天气等实用工具的文字对话使用。
+* 这个版本只支持文字对话！！！语言对话请见[lingkong-robot](https://gitee.com/lingkonggzs/lingkong-robot)
 #### 跳转
 ----
 [灵空文档](http://docs.lingkong-robot.cn)(包括灵空在线和灵空本地的使用说明)/[灵空在线](http://lkwebnc.ffxw0720.club:8888/)（账号随意，密码12345）/[灵空主体](https://gitee.com/lingkonggzs/lingkong-robot)
