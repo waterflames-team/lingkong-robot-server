@@ -44,7 +44,7 @@
 
 * 首先你要下载好0.5.9.200321版的灵空机器人
 ```shell
-git clone https://gitee.com/lingkonggzs/lingkong-robot-bata.git
+git clone https://gitee.com/lingkonggzs/lingkong-robot-server.git
 ```
 
 ### 开始安装：
@@ -53,7 +53,7 @@ git clone https://gitee.com/lingkonggzs/lingkong-robot-bata.git
 
 1.
 ```shell
-cd lingkong-robot
+cd lingkong-robot-server
 ```
 2.
 ```shell
@@ -72,7 +72,7 @@ cd lingkong-robot
 
 1. 首先你要下载好0.5.9.200321版的灵空机器人
 ```shell
-git clone https://gitee.com/lingkonggzs/lingkong-robot-bata.git
+git clone https://gitee.com/lingkonggzs/lingkong-robot-server.git
 ```
 2. 首先你要保证你已经安装了python3和pip3，没安装的可以百度
 
@@ -83,7 +83,7 @@ sudo curl -L http://download.lingkong-robot.online/change.sh | sudo bash
 ```
 3.
 ```shell
-cd lingkong-robot
+cd lingkong-robot-server
 ./install.sh
 ```
 
