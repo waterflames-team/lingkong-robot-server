@@ -42,7 +42,7 @@
 # 安装环境（Mac）
 ---
 
-* 首先你要下载好0.5.9.200321版的灵空机器人
+* 首先你要下载好灵空机器人server版
 ```shell
 git clone https://gitee.com/lingkonggzs/lingkong-robot-server.git
 ```
