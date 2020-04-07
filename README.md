@@ -9,7 +9,7 @@
 * 这个版本只支持文字对话！！！语言对话请见[lingkong-robot](https://gitee.com/lingkonggzs/lingkong-robot)
 #### 跳转
 ----
-[灵空文档](http://docs.lingkong-robot.cn)(包括灵空在线和灵空本地的使用说明)/[灵空在线](http://server.lingkong.store:88/)（账号随意，密码12345）/[灵空主体](https://gitee.com/lingkonggzs/lingkong-robot)
+[灵空文档](http://docs.lingkong-robot.cn)(包括灵空在线和灵空本地的使用说明)/[灵空在线](http://server.lingkong.store:888/)（账号随意，密码12345）/[灵空主体](https://gitee.com/lingkonggzs/lingkong-robot)
 
 
 
