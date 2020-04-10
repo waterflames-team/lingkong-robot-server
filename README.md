@@ -79,11 +79,6 @@ git clone https://gitee.com/lingkonggzs/lingkong-robot-server.git
 * 然后推荐你把web文件夹删了（那是暂存在这的官网，因为推荐项目自带page pro。说到推荐项目，希望大家多多点赞啊，万分感谢），不然有点占空间
 2. 首先你要保证你已经安装了python3和pip3，没安装的可以百度
 
-
-* 如果你想要换源可执行
-```shell
-sudo curl -L http://download.lingkong-robot.online/change.sh | sudo bash
-```
 3.
 ```shell
 cd lingkong-robot-server
@@ -92,18 +87,34 @@ cd lingkong-robot-server
 
 * 到这里你的环境安装就完成了
 
-***（如果换源时长时间没有动静，那么是需要密码的，执行完一键命令后输入用户密码再按下回车就可以换源啦）***
-
-***(如果换源时出现“need root”或者没有更换成功，那么请手动下载：***
-```shell
-wget http://download.lingkong-robot.online/change.sh
-sudo sh change.sh
-```
-***注意：这两条是需要分别执行的！！！在执行第二句时可能需要密码！输入并按下回车即可！！！）***
 ### 如果你安装不成功，那么请去文档的介绍页联系作者
 
+# 运行
+1. 如果你是deepin（debian系系统）
+----
+```shell
+python3 lingkong.py
+```
+*如果提示没有找到命令，那么请安装python3；*
+```shell
+sudo apt-get -y install python3 python3-pip
+```
+*如果没有进入root用户，则需要运行该指令后输入该用户密码。*
+----
+*如果提示没有找到模块，请运行下面的指令安装；*
+```shell
+pip3 install tornado requests
+```
+*如果提示没有找到pip3命令，请执行：*
+```shell
+sudo apt-get -y install python3-pip
+```
 
-
+*一旦关上ssh就会把lingkong关闭，怎么办？*
+```shell
+nohup python3 lingkong.py >/dev/null 2>&1 &
+```
+*然后会提示一个数字，如果要关闭就执行```kill 数字```*
 #### 在线版与本地版的区别
 ----
 ##### ①
