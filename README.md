@@ -1,3 +1,4 @@
+# 此项目已于2021.3.21停止维护
 # lingkong-robot-server
 ----
 **根据[lingkong-robot](https://gitee.com/lingkonggzs/lingkong-robot)所开发的在线版**
