@@ -1,16 +1,16 @@
 # 此项目已于2021.3.21停止维护
 # lingkong-robot-server
 ----
-**根据[lingkong-robot](https://gitee.com/lingkonggzs/lingkong-robot)所开发的在线版**
+**根据[lingkong-robot](https://gitee.com/lkteam/lingkong-robot)所开发的在线版**
 
 #### 有关灵空机器人的介绍
 
 * 灵空机器人是一个由非凡小王开发、折腾调协助维护的灵活可配的中文语音对话机器人，并根据wukong-robot进行改编（改编部分较多，主要借鉴了悟空后台端）。
 * 灵空机器人在线版可以做到正常的闲聊，以及查询天气等实用工具的文字对话使用。
-* 这个版本只支持文字对话！！！语言对话请见[lingkong-robot](https://gitee.com/lingkonggzs/lingkong-robot)
+* 这个版本只支持文字对话！！！语言对话请见[lingkong-robot](https://gitee.com/lkteam/lingkong-robot)
 #### 跳转
 ----
-[灵空文档](http://botdocs.lingkong.team)(包括灵空在线和灵空本地的使用说明)/[灵空在线](http://server.lingkong.store:888/)（账号随意，密码12345）/[灵空主体](https://gitee.com/lingkonggzs/lingkong-robot)
+[灵空文档](http://botdocs.lkteam.cn)(包括灵空在线和灵空本地的使用说明)/[灵空在线](http://server.lingkong.store:888/)（账号随意，密码12345）/[灵空主体](https://gitee.com/lkteam/lingkong-robot)
 
 
 
@@ -45,7 +45,7 @@
 
 * 首先你要下载好灵空机器人server版
 ```shell
-git clone https://gitee.com/lingkonggzs/lingkong-robot-server.git
+git clone https://gitee.com/lkteam/lingkong-robot-server.git
 ```
 * 然后推荐你把web文件夹删了（那是暂存在这的官网，因为推荐项目自带page pro。说到推荐项目，希望大家多多点赞啊，万分感谢），不然有点占空间
 
@@ -75,7 +75,7 @@ cd lingkong-robot-server
 
 1. 首先你要下载好0.5.9.200321版的灵空机器人
 ```shell
-git clone https://gitee.com/lingkonggzs/lingkong-robot-server.git
+git clone https://gitee.com/lkteam/lingkong-robot-server.git
 ```
 * 然后推荐你把web文件夹删了（那是暂存在这的官网，因为推荐项目自带page pro。说到推荐项目，希望大家多多点赞啊，万分感谢），不然有点占空间
 2. 首先你要保证你已经安装了python3和pip3，没安装的可以百度
