@@ -1,4 +1,5 @@
-# 此项目已于2021.3.21停止维护
+此项目已停止维护，全新版本请前往[https://gitee.com/lkteam/ring-robot-x](https://gitee.com/lkteam/ring-robot-x)
+
 # lingkong-robot-server
 ----
 **根据[lingkong-robot](https://gitee.com/lkteam/lingkong-robot)所开发的在线版**
